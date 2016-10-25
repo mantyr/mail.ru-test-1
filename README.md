@@ -25,26 +25,26 @@ $ echo -e 'https://golang.org\nhttps://golang.org\nhttps://golang.org' | go run 
 Count for https://golang.org: 9
 Count for https://golang.org: 9
 Count for https://golang.org: 9
-Total:  27
+Total: 27
 
 $ echo -e 'https://golang.org\nhttps://golang.org\nhttp://4gophers.ru' | go run ./cmd/v1/*.go -search="Go"
 Count for https://golang.org: 9
 Count for https://golang.org: 9
 Count for http://4gophers.ru: 39
-Total:  57
+Total: 57
 
 
 $ echo -e 'https://golang.org\nhttps://golang.org\nhttps://golang.org' | go run ./cmd/v2/*.go -search="Go"
 Count for https://golang.org: 9
 Count for https://golang.org: 9
 Count for https://golang.org: 9
-Total:  27
+Total: 27
 
 $ echo -e 'https://golang.org\nhttps://golang.org\nhttp://4gophers.ru' | go run ./cmd/v2/*.go -search="Go"
 Count for https://golang.org: 9
 Count for https://golang.org: 9
 Count for http://4gophers.ru: 39
-Total:  57
+Total: 57
 
 ```
 
