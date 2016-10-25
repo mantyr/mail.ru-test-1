@@ -13,7 +13,7 @@ func main() {
 	flag.Parse()
 
 	total := Scaner(*s, *k, os.Stdin)
-	fmt.Println("Total: ", total)
+	fmt.Println("Total:", total)
 }
 
 func Scaner(sep string, k int64, file *os.File) (total int64) {
